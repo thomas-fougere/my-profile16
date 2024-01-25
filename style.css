@@ -12,13 +12,31 @@ h2 {
 
 body {
   color: #001f3f;
-  background-color: #f2f2f2;
+  background-color: grey;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  line-height: 1.8;
   letter-spacing: 1px;
   text-align: center;
   font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+.bouton {
+	background-color: orange;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.bouton:hover{
+	color: black;
+	background-color: lightblue;
+
 }
 
 .photo {
@@ -31,7 +49,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 700px;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .section{
@@ -40,4 +58,22 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
+
+}
+
+
+.liste{
+	list-style: none;
+	padding-left:0px;
+}
+.liste li{
+	display: inline;
+	padding:10px;
+}
+.liste i{
+	font-size: 25px;
+	color: orange ;
+}
+.liste i:hover{
+	color: lightblue;
 }
